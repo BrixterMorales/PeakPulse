@@ -66,12 +66,56 @@ export default function Login() {
     </a>
   </div>
 </nav>
-<div class="px-16 py-4 text-gray-700 bg-gray-100 dark:bg-gray-900 h-screen w-screen">
+<div class="px-16 py-4 text-gray-700 bg-gray-100 dark:bg-gray-900 h-screen w-screen flex items-center justify-center">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-screen-lg">
+   
+    <div class="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
 
-</div>
-     
+      <div class="p-4">
+        <img class="w-full h-32 object-cover" src="performancefitness.png" alt="Card Image"/>
+        <h2 class="text-xl font-semibold mb-2"> Performance Fitness </h2>
+        <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+         View
+        </button>
+      </div>
     </div>
-    
+
+   
+    <div class="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
+
+      <div class="p-4">
+        <img class="w-full h-32 object-cover" src="FitQUestGym.png" alt="Card Image"/>
+        <h2 class="text-xl font-semibold mb-2">FitQuest Gym</h2>
+        <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+         View
+        </button>
+      </div>
+    </div>
+
+   
+    <div class="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
+     
+      <div class="p-4">
+      <img class="w-full h-32 object-cover" src="powerhouse.png" alt="Card Image"/>
+        <h2 class="text-xl font-semibold mb-2">Powerhouse Workout</h2>
+        <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+         View
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
+     
+      <div class="p-4">
+        <img class="w-full h-32 object-cover" src="vitality1.png" alt="Card Image"/>
+        <h2 class="text-xl font-semibold mb-2">Vitality Fitness Club </h2>
+        <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+         View
+        </button>
+      </div>
+    </div>
+  </div> </div>
+  </div>
     </>
   );
 }
