@@ -38,7 +38,7 @@ export default function home() {
                     <Box
                     className="relative flex flex-col md:flex-row min-h-screen text-white"
                     sx={{
-                      backgroundImage: 'url("/graywebsitevibes.png")', // Background image
+                      backgroundImage: 'url("/graywebsitevibes.png")',
                       backgroundSize: 'cover',
                       backgroundPosition: 'center',
                     }}
@@ -69,10 +69,10 @@ export default function home() {
                     </div>
                   </Box>
 
-                    {/* Right section: Image */}
+                   
                     <Box className="w-full md:w-1/2 flex justify-center items-center p-8">
                       <img
-                        src="/gymwebsite.png" // Image path
+                        src="/gymwebsite.png"
                         alt="Gym"
                         className="object-cover rounded-lg shadow-lg max-w-full"
                       />
@@ -85,7 +85,7 @@ export default function home() {
                       <img
                         src="/boxing1.png" 
                         alt="Reinventing resistance"
-                        className="object-cover rounded-lg shadow-lg w-full h-64 md:w-1/2" // Set a fixed height
+                        className="object-cover rounded-lg shadow-lg w-full h-64 md:w-1/2" 
                       />
                       <Box className="md:w-1/2 md:pl-4 flex flex-col justify-center">
                         <Typography variant="h5" className="font-bold text-maroon mt-4 md:mt-0">
