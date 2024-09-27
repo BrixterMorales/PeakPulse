@@ -17,6 +17,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import Divider from "@mui/material/Divider";
+import Avatar from "@mui/material/Avatar";
 export default function Drawerlist() {
                     const [open, setOpen] = React.useState(false);
 
@@ -26,6 +28,22 @@ export default function Drawerlist() {
 
                     const DrawerList = (
                     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
+                                        <Box className="flex flex-col items-center p-4">
+                        <Avatar
+                        
+                            src="/goku.png"
+                            sx={{ width: 80, height: 80 }}
+                        />
+                        <Typography
+                            variant="h6"
+                            className="font-bold mt-2 text-center"
+                            style={{ color: "#111827" }}
+                        >
+                            Goku
+                        </Typography>
+                        </Box>
+                
+                        <Divider />
                         <List>
                         {[
                             { text: 'Gym Profiling', icon: <SportsGymnasticsIcon /> },

@@ -1,89 +1,18 @@
 "use client";
 import React from 'react';
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import SportsGymnasticsIcon from '@mui/icons-material/SportsGymnastics';
-import PersonIcon from '@mui/icons-material/Person';
-import EventIcon from '@mui/icons-material/Event';
-import ReportIcon from '@mui/icons-material/Assessment';
-import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+import DrawerList from '@/app/components/drawerheaderbar/page';
 import Button from '@mui/material/Button';
 import { Card, CardContent} from '@mui/material';
 import Rating from '@mui/material/Rating';
 export default function Home() {
-                    const list = () => (
-                        <Box className="w-64 bg-sky h-100">
-                        <Box className="flex flex-col items-center mt-4 mb-4">
-                            <img
-                            src="/goku.png" 
-                            className="w-16 h-16 rounded-full border-2 border-sky-600" 
-                            />
-                            <Typography variant="body1" className="mt-2 text-black font-semibold">
-                            Goku  
-                            </Typography>
-                        </Box>
-                      
-                        <List>
-                          {[
-                            { text: 'Gym Profiling', icon: <SportsGymnasticsIcon /> },
-                            { text: 'Trainer', icon: <PersonIcon /> },
-                            { text: 'Services and Promotion', icon: <LocalOfferIcon /> },
-                            { text: 'Calendar', icon: <EventIcon /> },
-                            { text: 'Reports', icon: <ReportIcon /> }
-                          ].map(({ text, icon }) => (
-                            <ListItem button key={text} className="p-4 hover:bg-blue-300 cursor-pointer">
-                              <ListItemIcon>{React.cloneElement(icon, { style: { color: '#030712' } })}</ListItemIcon>
-                              <ListItemText
-                                primary={
-                                  <Typography
-                                    variant="body1"
-                                    style={{ fontWeight: 'bold', fontStyle: 'italic', color: '#111827' }}
-                                  >
-                                    {text}
-                                  </Typography>
-                                }
-                              />
-                            </ListItem>
-                          ))}
-                        </List>
-                      </Box>  
-                    );
+                    
                     return (
                      <>
-              <Box className="flex-grow">
-                        <AppBar position="static" className="bg-gray-900">
-                            <Toolbar className="flex justify-center items-center">
-                                <div className="flex items-center space-x-6">
-                                    <div className="flex items-center space-x-2">
-                                        <img src="/peakpulselogo1.png" alt="PeakPulse Logo" className="h-10 w-10" />
-                                        <Typography variant="h6" component="div" className="text-white font-bold">
-                                            PeakPulse
-                                        </Typography>
-                                    </div>
-                                    <Typography variant="body1" className="text-white hover:text-blue-300 cursor-pointer">
-                                        LEARN MORE
-                                    </Typography>
-                                    <Typography variant="body1" className="text-white hover:text-blue-300 cursor-pointer">
-                                        ABOUT
-                                    </Typography>
-                                    <Typography variant="body1" className="text-white hover:text-blue-300 cursor-pointer">
-                                        MEMBERSHIPS
-                                    </Typography>
-                                    <Button variant="contained" className="bg-yellow-500 text-black font-bold hover:bg-blue-300">
-                                        CONTACT US
-                                    </Button>
-                                </div>
-                            </Toolbar>
-                        </AppBar>
-                    </Box>
+                     <DrawerList />
                         <div className="flex">
-                        {list()}
+                        
                         <Box component="main" className="flex-grow bg-gray-100 p-10 min-h-screen flex flex-col">    
                             <Box className="bg-white rounded-lg shadow-lg p-6 mb-10">
                                 <Box className="flex items-center justify-between">

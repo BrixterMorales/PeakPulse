@@ -38,17 +38,17 @@ export default function servicepromo() {
                 src="beerusads.png"
                 alt="Promotion"
                 className="max-w-full h-auto"
-                style={{ maxWidth: '700px', height: 'auto', aspectRatio: '16/9' }} // Main image size
+                style={{ maxWidth: '700px', height: 'auto', aspectRatio: '16/9' }} 
             />
             <div className="flex flex-col justify-center ml-4">
-                <Box className="w-96 h-48 bg-gray-300 mb-2"> {/* Increased width */}
+                <Box className="w-96 h-48 bg-gray-300 mb-2"> 
                     <img 
                         src="kamagawaads.png" 
                         alt="Image 1" 
                         className="w-full h-full object-cover"
                     />
                 </Box>
-                <Box className="w-96 h-48 bg-gray-300"> {/* Increased width */}
+                <Box className="w-96 h-48 bg-gray-300"> 
                     <img 
                         src="fitqdiscounts.png" 
                         alt="Image 2" 

@@ -112,7 +112,7 @@ export default function Home() {
                           </CardContent>
                       </Card>
 
-                      {/* View All Button */}
+              
                       <Box className="mt-2 text-center">
                           <Button variant="text" color="primary" className="hover:underline text-black" onClick={() => { /* Handle view all */ }}>
                               View All Friends
