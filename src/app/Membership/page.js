@@ -12,7 +12,7 @@ export default function MEMBERSHIPS() {
      <Box
         className="bg-opacity-80 relative flex flex-col justify-center items-center min-h-screen text-white"
         sx={{
-          backgroundImage: 'url("/graywebsitevibes.png")', // Adjust your background image path
+          backgroundImage: 'url("/graywebsitevibes.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -26,17 +26,16 @@ export default function MEMBERSHIPS() {
 
         <Typography
           variant="h1"
-          className="text-5xl font-bold text-center mb-4 text-blue-800"
+          className="text-5xl font-bold text-center mb-4 text-black"
         >
           We are PeakPulse
         </Typography>
         <Typography
-          variant="h2"
-          className="text-3xl font-bold text-center mb-6 text-pink-800"
-        >
-          A Gym Management AS A Software Services.
-        </Typography>
-
+        variant="h2"
+        className="text-3xl font-bold text-center mb-6 text-white border-2 border-sky-500 bg-sky-500 rounded-lg p-4"
+      >
+        A Gym Management AS A Software Services.
+      </Typography>
  
         <Typography
           variant="body1"

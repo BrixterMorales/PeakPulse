@@ -9,6 +9,7 @@ import Pagination  from '@mui/material/Pagination';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import SearchIcon from '@mui/icons-material/Search';
+import AddIcon from '@mui/icons-material/Add';
 export default function Home() {
                     return (
                      <>
@@ -56,12 +57,9 @@ export default function Home() {
                                 Whey Protein
                                 </Typography>
                                 <Box className="mt-3">
-                                <Button variant="outlined" className="mr-2" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    View
-                                </Button>
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    Buy Now
-                                </Button>
+                                        <AddIcon />
+                                        </Button>
                                 </Box>
                             </Box>
 
@@ -76,11 +74,8 @@ export default function Home() {
                                 Creatine Monohydrate
                                 </Typography>
                                 <Box className="mt-3">
-                                <Button variant="outlined" className="mr-2" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    View
-                                </Button>
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    Buy Now
+                                <AddIcon />
                                 </Button>
                                 </Box>
                             </Box>
@@ -96,11 +91,8 @@ export default function Home() {
                                 Energy Booster
                                 </Typography>
                                 <Box className="mt-3">
-                                <Button variant="outlined" className="mr-2" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    View
-                                </Button>
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    Buy Now
+                                <AddIcon />
                                 </Button>
                                 </Box>
                             </Box>
@@ -115,11 +107,8 @@ export default function Home() {
                                 Collagen Fat Burner
                                 </Typography>
                                 <Box className="mt-3">
-                                <Button variant="outlined" className="mr-2" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    View
-                                </Button>
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    Buy Now
+                                <AddIcon />
                                 </Button>
                                 </Box>
                             </Box>
@@ -135,11 +124,8 @@ export default function Home() {
                                 Protein Bar
                                 </Typography>
                                 <Box className="mt-3">
-                                <Button variant="outlined" className="mr-2" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    View
-                                </Button>
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    Buy Now
+                                <AddIcon />
                                 </Button>
                                 </Box>
                             </Box>
@@ -155,11 +141,8 @@ export default function Home() {
                                 Glutamine
                                 </Typography>
                                 <Box className="mt-3">
-                                <Button variant="outlined" className="mr-2" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    View
-                                </Button>
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
-                                    Buy Now
+                                <AddIcon />
                                 </Button>
                                 </Box>
                             </Box>

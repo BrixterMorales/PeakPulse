@@ -2,7 +2,6 @@
 import React from 'react';
 import Footer from '@/app/components/footer/page';
 import { TextField, Button, Checkbox, FormControlLabel } from '@mui/material';
-
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
