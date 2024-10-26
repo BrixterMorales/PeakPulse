@@ -56,7 +56,7 @@ export default function Home() {
                                 <Typography variant="h6" className="text-black font-bold mt-2">
                                 Whey Protein
                                 </Typography>
-                                <Box className="mt-3">
+                                <Box className="mt-3 flex justify-center">
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
                                         <AddIcon />
                                         </Button>
@@ -73,7 +73,7 @@ export default function Home() {
                                 <Typography variant="h6" className="text-black font-bold mt-2">
                                 Creatine Monohydrate
                                 </Typography>
-                                <Box className="mt-3">
+                                <Box className="mt-3 flex justify-center">
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
                                 <AddIcon />
                                 </Button>
@@ -90,7 +90,7 @@ export default function Home() {
                                 <Typography variant="h6" className="text-black font-bold mt-2">
                                 Energy Booster
                                 </Typography>
-                                <Box className="mt-3">
+                                <Box className="mt-3 flex justify-center">
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
                                 <AddIcon />
                                 </Button>
@@ -106,7 +106,7 @@ export default function Home() {
                                 <Typography variant="h6" className="text-black font-bold mt-2">
                                 Collagen Fat Burner
                                 </Typography>
-                                <Box className="mt-3">
+                                <Box className="mt-3 flex justify-center">
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
                                 <AddIcon />
                                 </Button>
@@ -123,7 +123,7 @@ export default function Home() {
                                 <Typography variant="h6" className="text-black font-bold mt-2">
                                 Protein Bar
                                 </Typography>
-                                <Box className="mt-3">
+                                <Box className="mt-3 flex justify-center">
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
                                 <AddIcon />
                                 </Button>
@@ -140,7 +140,7 @@ export default function Home() {
                                 <Typography variant="h6" className="text-black font-bold mt-2">
                                 Glutamine
                                 </Typography>
-                                <Box className="mt-3">
+                                <Box className="mt-3 flex justify-center">
                                 <Button variant="outlined" style={{ color: '#007bff', borderColor: '#007bff' }}>
                                 <AddIcon />
                                 </Button>
@@ -148,13 +148,10 @@ export default function Home() {
                             </Box>
                             </Box>
                         </Box>
-
-                        <Box className="mt-6 flex justify-center">
-                            <Pagination count={10} color="primary" />
-                        </Box>
                         </Box>
                                         </div>
-                                        <Footer />  
+                                        <Footer/>
+                                       
                     </>
      );
 }
